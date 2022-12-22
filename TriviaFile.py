@@ -4,11 +4,11 @@ import pymysql as ps
 from sqlalchemy import create_engine
 
 connection = {
-    "host": "10.196.143.9",
-    "port": 3307,
-    "user": "pbhat2",
-    "passwd": "kDDMKw45",
-    "database": "gac_dev4_ods"
+    "host": "****",
+    "port": ***,
+    "user": "***",
+    "passwd": "***",
+    "database": "****"
 }
 db = ps.connect(**connection)
 #sqlEngine = create_engine('mysql+pymysql://pbhat2:kDDMKw45@10.196.143.9/gac_dev4_ods')
